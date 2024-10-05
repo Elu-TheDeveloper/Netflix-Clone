@@ -1,8 +1,12 @@
 .footer_outer_container{
+    margin-top: 20px;
     background-color: #111;
     color: gray;
     display: flex;
   justify-content: center;
+  margin-bottom: 100px;
+  position: relative; /* Ensure it's relative for stacking */
+    z-index: 2; /* Ensure the footer stays above other elements */
 }
 .footer_inner_container{
     width: 60%;
