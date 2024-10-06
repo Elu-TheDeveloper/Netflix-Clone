@@ -2,7 +2,7 @@
 
 
 :root {
-  --font-base: 'Lexend', sans-serif; /* Removed extra semicolon */
+  --font-base: 'Lexend', sans-serif; 
   --font-second-base: 'Inter', sans-serif;
   --bg-color: #111;
   --primary-color: #ffffff;

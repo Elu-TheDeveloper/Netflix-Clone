@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(20, 20, 20);
-    /* background-color: transparent; */
     height: 10vh;
     color: white;
     transition: all 0.5s;
@@ -13,14 +12,13 @@
     z-index: 1;
 }
 .nav_black{
-    /* background-color: rgb(20, 20, 20); */
+    background-color: rgb(20, 20, 20);
 }
 .header_container{
     width: 90%;
     display: flex;
     justify-content: space-between;
     text-align: center;
-
 }
 .header_left ul{
     width: 140%;
@@ -38,14 +36,10 @@
 .header_left li{
     color: white;
 }
-
-
-
 .header_right li {
-    color: white; /* This will set the text color */
+    color: white; /
 }
-
 .header_right li svg {
-    color: white;  /* For the icon itself */
-    fill: white;   /* Ensure the fill color is white */
+    color: white;  
+    fill: white;   
 }

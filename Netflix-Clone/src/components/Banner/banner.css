@@ -21,11 +21,12 @@
 .banner_description{
     width: 45rem;
     line-height: 1;
-    padding: 1rem;
-    font-size: 1rem 0;
-    max-width: 360px;
-    height: 100%;
-    z-index: 2;
+    padding: 1rem 0;
+    font-size: 1rem;
+    max-width: 50%;
+    /* height: 50px; */
+    font-size: 24px;
+    
 }
 
 .banner_button{
