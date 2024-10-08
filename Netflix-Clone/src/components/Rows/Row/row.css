@@ -1,29 +1,97 @@
-.row_poster{
+/* Base styles (for all devices) */
+.row_poster {
     width: 100%;
     object-fit: contain;
     max-height: 100px;
-    transition: tranform 450ms;
+    transition: transform 450ms;
     margin-right: 10px;
 }
-.row_posters{
+.row_posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
 }
-.row_posters::-webkit-scrollbar{
+.row_posters::-webkit-scrollbar {
     display: none;
 }
-.row_poster:hover{
+.row_poster:hover {
     transform: scale(1.088);
 }
-.row_posterLarge{
-    max-height:250px;
+.row_posterLarge {
+    max-height: 250px;
 }
-.row_posterLarge:hover{
+.row_posterLarge:hover {
     transform: scale(1.09);
 }
-.row{
+.row {
     margin-left: 20px;
     color: white;
+}
+
+/* Breakpoints */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+    .row_poster {
+        max-height: 60px;
+    }
+    .row_posters {
+        padding: 10px;
+    }
+    .row_posterLarge {
+        max-height: 150px;
+    }
+}
+
+/* Small devices (landscape phones, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .row_poster {
+        max-height: 80px;
+    }
+    .row_posters {
+        padding: 15px;
+    }
+    .row_posterLarge {
+        max-height: 200px;
+    }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .row_poster {
+        max-height: 120px;
+    }
+    .row_posters {
+        padding: 20px;
+    }
+    .row_posterLarge {
+        max-height: 220px;
+    }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .row_poster {
+        max-height: 140px;
+    }
+    .row_posters {
+        padding: 25px;
+    }
+    .row_posterLarge {
+        max-height: 240px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .row_poster {
+        max-height: 160px;
+    }
+    .row_posters {
+        padding: 30px;
+    }
+    .row_posterLarge {
+        max-height: 260px;
+    }
 }
