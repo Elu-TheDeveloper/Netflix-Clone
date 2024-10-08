@@ -1,10 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
-export default {
-  base: '/Netflix-Clone/'
+export default defineConfig({
+  base: '/Netflix-Clone/', 
   build: {
-    outDir: 'dist',
+    outDir: 'dist', 
   },
-};
+});
